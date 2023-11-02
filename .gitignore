@@ -1,0 +1,17 @@
+# Pastas
+node_modules/
+out/
+.cache/
+.next/
+.next/cache
+.vscode/
+
+# Arquivos de build
+*.log
+yarn-error.log
+package-lock.json
+
+# Arquivos temporários
+.DS_Store
+*.swp
+*.swo

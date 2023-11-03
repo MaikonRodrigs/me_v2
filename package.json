@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "formik": "^2.4.5",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.291.0",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-loading": "^2.0.3",
+    "react-switch": "^7.0.0",
     "zustand": "^4.4.5"
   },
   "devDependencies": {

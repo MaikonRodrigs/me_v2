@@ -16,13 +16,14 @@
   }
 }
 
-body {
-  background-color: 'bg-background';
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
+
+
+/* body.bg-light-background {
+ background: 'bg-light-background';
+ color: 'text-light-text'
 }
+
+body.bg-dark-background {
+ background: 'bg-dark-background';
+ color: 'text-dark-text'
+} */

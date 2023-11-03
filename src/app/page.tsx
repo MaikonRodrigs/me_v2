@@ -1,9 +1,11 @@
-import React from 'react';
+'use client'
+import React from 'react'
+import Stages from '@/components/Stages/Stages'
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center h-screen w-screen text-primaryColor">
-      My New Portfolio v2 @MaikonRodrigs
+    <div>
+      <Stages />
     </div>
-  );
+  )
 }

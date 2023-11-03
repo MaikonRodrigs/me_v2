@@ -13,26 +13,24 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      colors: {
-        'background' : '#DEE5E5',
-        'primaryColor' : '#28262C'
+      animation: {
+        slow: '.2s',
       },
-      theme: {
-        extend: {
-          colors: {
-            light: {
-              background: 'white',
-              text: 'black',
-            },
-            dark: {
-              background: 'black',
-              text: 'white',
-            },
-          },
+      colors: {
+        background: '#DEE5E5',
+        primaryColor: '#28262C',
+        light: {
+          background: 'white',
+          text: 'black',
+        },
+        dark: {
+          background: 'black',
+          text: 'white',
         },
       },
     },
   },
   plugins: [],
 }
+
 export default config
